@@ -1,0 +1,1 @@
+The Python code and fictional example use the MIT license. The bundled Instrument Sans font retains its original SIL Open Font License in assets/OFL-InstrumentSans.txt. Xorion Systems and its mark identify the publisher. The software license grants no trademark endorsement. Google and Google Business Profile are trademarks of their respective owner.

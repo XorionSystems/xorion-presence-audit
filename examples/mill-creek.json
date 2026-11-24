@@ -1,0 +1,91 @@
+{
+  "sample": true,
+  "business": "Mill Creek Plumbing",
+  "town": "Norwalk, Ohio",
+  "checked_on": "2026-11-24",
+  "strengths": [
+    {
+      "title": "Easy to call",
+      "verified": true,
+      "checked_on": "2026-11-24",
+      "source": "https://millcreek-plumbing.example/",
+      "comparison_source": "https://listing.example/mill-creek-plumbing",
+      "observed": "Your phone number is easy to find on your site and matches the one on Google. Customers can reach the same number from either place."
+    },
+    {
+      "title": "Clear water heater information",
+      "verified": true,
+      "checked_on": "2026-11-24",
+      "source": "https://millcreek-plumbing.example/water-heaters",
+      "observed": "Your water heater page explains what you replace and how to ask for an estimate. That gives customers a clear next step."
+    },
+    {
+      "title": "Reviews with useful details",
+      "verified": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing/reviews",
+      "observed": "Customers mention clear explanations and a clean work area. Those details tell homeowners what they can expect when your crew visits."
+    }
+  ],
+  "findings": [
+    {
+      "kind": "stale_reviews",
+      "verified": true,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing/reviews",
+      "observed": "Your profile shows 19 reviews. The newest visible review is dated February 14, 2026."
+    },
+    {
+      "kind": "no_recent_job_photos",
+      "verified": true,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing/photos",
+      "observed": "The photos we could see show your van and logo. We didn’t see an example of a completed water heater replacement.",
+      "values": {"job": "water heater"}
+    },
+    {
+      "kind": "broken_website",
+      "verified": true,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing",
+      "comparison_source": "https://millcreek-plumbing.example/",
+      "observed": "On a phone, the Website button on your Google listing opens /plumbing, which shows Page not found. Your homepage loads and has a Request an estimate button.",
+      "values": {"working_url": "https://millcreek-plumbing.example/"}
+    },
+    {
+      "kind": "missing_service_area",
+      "verified": false,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing",
+      "observed": "Service area needs owner confirmation.",
+      "values": {"towns": "Norwalk and Milan"}
+    },
+    {
+      "kind": "missing_service",
+      "verified": true,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing/services",
+      "comparison_source": "https://millcreek-plumbing.example/water-heaters",
+      "observed": "Your website has a water heater replacement page. Water heater replacement does not appear in the public Google services list we checked.",
+      "values": {
+        "service": "water heater replacement",
+        "description": "Replacement of existing tank water heaters in the Norwalk area. Call to tell us what you have now and ask about an estimate."
+      }
+    },
+    {
+      "kind": "contradictory_hours",
+      "verified": true,
+      "owner_can_do": true,
+      "checked_on": "2026-11-24",
+      "source": "https://listing.example/mill-creek-plumbing/hours",
+      "comparison_source": "https://millcreek-plumbing.example/contact",
+      "observed": "Google shows Closed on Saturday. Your site says 8 a.m. to noon, and you confirmed those are staffed hours.",
+      "values": {"day": "Saturday", "hours": "8 a.m. to noon"}
+    }
+  ]
+}
